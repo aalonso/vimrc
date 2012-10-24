@@ -25,3 +25,6 @@
 [submodule "bundle/csapprox"]
 	path = bundle/csapprox
 	url = git://github.com/godlygeek/csapprox.git
+[submodule "bundle/vim-bitbake"]
+	path = bundle/vim-bitbake
+	url = git://github.com/kergoth/vim-bitbake.git
