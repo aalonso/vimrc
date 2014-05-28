@@ -34,3 +34,6 @@
 [submodule "bundle/vim-unipaired"]
 	path = bundle/vim-unipaired
 	url = git://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/vim-addon-linux-coding-style"]
+	path = bundle/vim-addon-linux-coding-style
+	url = git://github.com/vivien/vim-addon-linux-coding-style.git
