@@ -57,11 +57,11 @@ if v:version >= 700
 endif
 " color scheme options
 set background=dark
-let g:solarized_termtrans=1
-let g:solarized_termcolors=256
+"let g:solarized_termtrans=1
+"let g:solarized_termcolors=256
 "let g:solarized_contrast="high"
 "let g:solarized_visibility="high"
-colorscheme solarized
+colorscheme industrial
 
 " Custom mappings
 let maplocalleader=','        " all my macros start with ,
