@@ -17,6 +17,11 @@ set noautowrite               " don't automagically write on :next
 set showmode
 set showcmd
 set nocompatible              " vim, not vi
+
+" folding method
+set foldmethod=marker         " marker : {{{ }}} | zm - close markers
+nnoremap <space> za   			
+
 " identation options
 set shell=bash
 set fileformats=unix
