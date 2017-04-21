@@ -37,3 +37,6 @@
 [submodule "bundle/vim-addon-linux-coding-style"]
 	path = bundle/vim-addon-linux-coding-style
 	url = git://github.com/vivien/vim-addon-linux-coding-style.git
+[submodule "bundle/vim-dzo"]
+	path = bundle/vim-dzo
+	url = git@github.com:Blevs/vim-dzo.git

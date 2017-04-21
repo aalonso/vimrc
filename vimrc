@@ -4,6 +4,7 @@ call pathogen#helptags()
 
 " custom config options
 set t_Co=256 				  " Set 256 color support
+set t_ut=
 set ruler                     " show the line number on the bar
 set laststatus=2
 set cmdheight=2               " command line two lines high
@@ -30,6 +31,8 @@ set autoindent smartindent    " auto/smart indent
 set smarttab                  " tab and backspace are smart
 set tabstop=4                 " 4 spaces
 set shiftwidth=4
+set list
+set listchars=tab:\|\ 
 " history
 set history=200
 set undolevels=1000           " 1000 undos
@@ -56,12 +59,13 @@ if v:version >= 700
   autocmd BufNewFile,BufRead *.txt setlocal spell spelllang=en
 endif
 " color scheme options
-set background=dark
+"set background=dark
 "let g:solarized_termtrans=1
 "let g:solarized_termcolors=256
 "let g:solarized_contrast="high"
 "let g:solarized_visibility="high"
-colorscheme industrial
+let g:airline_theme='myterm'
+colorscheme dzo
 
 " Custom mappings
 let maplocalleader=','        " all my macros start with ,
