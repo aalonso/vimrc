@@ -39,4 +39,7 @@
 	url = git://github.com/vivien/vim-addon-linux-coding-style.git
 [submodule "bundle/vim-dzo"]
 	path = bundle/vim-dzo
-	url = git@github.com:Blevs/vim-dzo.git
+	url = git://github.com/Blevs/vim-dzo.git
+[submodule "bundle/colorschemes"]
+	path = bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
